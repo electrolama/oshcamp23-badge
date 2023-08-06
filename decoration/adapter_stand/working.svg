@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Creator: CorelDRAW X6 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="200mm" height="200mm" version="1.0" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 20000 20000"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:black;stroke-width:52.92;stroke-linecap:round;stroke-linejoin:round}
+    .fil0 {fill:none}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_912619856">
+   <circle class="fil0 str0" cx="-3000" cy="20000" r="150"/>
+   <circle class="fil0 str0" cx="-1500" cy="20000" r="150"/>
+   <circle class="fil0 str0" cy="20000" r="150"/>
+   <circle class="fil0 str0" cx="1500" cy="20000" r="150"/>
+   <circle class="fil0 str0" cx="3000" cy="20000" r="150"/>
+   <path class="fil0 str0" d="M-3700 21700l0 -1900c0,-276 224,-500 500,-500l6400 0c276,0 500,224 500,500l0 1900c0,276 -224,500 -500,500l-6400 0c-276,0 -500,-224 -500,-500z"/>
+   <circle class="fil0 str0" cx="-1500" cy="21500" r="300"/>
+   <circle class="fil0 str0" cx="-3000" cy="21500" r="300"/>
+   <circle class="fil0 str0" cy="21500" r="300"/>
+   <circle class="fil0 str0" cx="1500" cy="21500" r="300"/>
+   <circle class="fil0 str0" cx="3000" cy="21500" r="300"/>
+  </g>
+  <circle class="fil0 str0" cx="-2250" cy="20000" r="150"/>
+  <circle class="fil0 str0" cx="-2250" cy="21500" r="150"/>
+  <circle class="fil0 str0" cx="-1500" cy="20750" r="150"/>
+  <circle class="fil0 str0" cx="-3000" cy="20750" r="150"/>
+  <circle class="fil0 str0" cy="20750" r="150"/>
+  <circle class="fil0 str0" cx="-750" cy="21500" r="150"/>
+  <circle class="fil0 str0" cx="750" cy="21500" r="150"/>
+  <circle class="fil0 str0" cx="1500" cy="20750" r="150"/>
+  <circle class="fil0 str0" cx="2250" cy="21500" r="150"/>
+  <circle class="fil0 str0" cx="3000" cy="20750" r="150"/>
+  <circle class="fil0 str0" cx="-750" cy="20000" r="150"/>
+  <circle class="fil0 str0" cx="750" cy="20000" r="150"/>
+  <circle class="fil0 str0" cx="2250" cy="20000" r="150"/>
+ </g>
+</svg>
