@@ -1,0 +1,155 @@
+KiBot installation checker
+
+Core:
+Linux: 5.19.0.50 (Linux bertie-mcsurface 5.19.0-50-generic #50-Ubuntu SMP PREEMPT_DYNAMIC Mon Jul 10 18:24:29 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux)
+  /usr/bin/uname
+Python: 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]
+  /usr/lib/python3.10/os.py
+  /usr/bin/python3
+KiCad: 7.0.6-7.0.6~ubuntu22.04.1
+  /usr/lib/python3/dist-packages/pcbnew.py
+  /usr/bin/kicad
+Kibot: 1.6.3
+  /usr/lib/python3/dist-packages/kibot/__main__.py
+  /usr/bin/kibot
+
+Modules:
+Colorama: 0.4.4
+  /usr/lib/python3/dist-packages/colorama/__init__.py
+LXML: 4.8.0
+  /usr/lib/python3/dist-packages/lxml/__init__.py
+Lark: 1.1.1
+  /usr/lib/python3/dist-packages/lark/__init__.py
+PyYAML: 5.4.1
+  /usr/lib/python3/dist-packages/yaml/__init__.py
+QRCodeGen: Ok
+  /usr/lib/python3/dist-packages/qrcodegen.py
+Requests: 2.25.1
+  /usr/lib/python3/dist-packages/requests/__init__.py
+XLSXWriter: 3.0.2
+  /usr/lib/python3/dist-packages/xlsxwriter/__init__.py
+Xvfbwrapper: Ok
+  /usr/lib/python3/dist-packages/xvfbwrapper.py
+markdown2: 2.4.1
+  /usr/lib/python3/dist-packages/markdown2.py
+mistune: 0.8.4
+  /usr/lib/python3/dist-packages/mistune.py
+numpy: 1.21.5
+  /usr/lib/python3/dist-packages/numpy/__init__.py
+
+Tools:
+Bash: 5.1.16 (GNU bash, version 5.1.16(1)-release (x86_64-pc-linux-gnu))
+  /usr/bin/bash
+Blender: 3.0.1 (Color management: using fallback mode for management)
+  /usr/bin/blender
+Ghostscript: 9.55.0
+  /usr/bin/gs
+Git: 2.34.1 (git version 2.34.1)
+  /usr/bin/git
+ImageMagick: 6.9.11.60 (Version: ImageMagick 6.9.11-60 Q16 x86_64 2021-01-25 https://imagemagick.org)
+  /usr/bin/convert
+Interactive HTML BoM: 2.7.0 (v2.7.0)
+  /usr/bin/python3
+KiBoM: 1.9.0 (KiBOM Version: 1.9.0)
+  /usr/bin/KiBOM_CLI.py
+KiCad Automation tools (kiauto): 2.2.6 (pcbnew_do 2.2.6 - Copyright 2018-2023, INTI/Productize SPRL - License: Apache)
+  /usr/bin/pcbnew_do
+KiCad PCB/SCH Diff (kidiff): Not available
+  /usr/bin/pcbnew_do
+KiCost: 1.1.18 (KiCost v1.1.18)
+  /usr/bin/kicost
+KiKit: 1.3.0.8 (kikit, version 1.3.0-8)
+  /usr/bin/kikit
+OpenSCAD: 2021.1.0 (OpenSCAD version 2021.01)
+  /usr/bin/openscad
+Pandoc: 2.9.2.1 (pandoc 2.9.2.1)
+  /usr/bin/pandoc
+RAR: 5.50.0 (RAR 5.50   Copyright (c) 1993-2017 Alexander Roshal   11 Aug 2017)
+  /usr/bin/rar
+RSVG tools: 2.52.5 (rsvg-convert version 2.52.5)
+  /usr/bin/rsvg-convert
+Xvfb: Ok (xvfb-run)
+  /usr/bin/rsvg-convert
+
+* Blender not installed or too old
+  Install the `blender` package, i.e.: `sudo apt-get install blender`
+  - Mandatory for `blender_export`
+
+* KiCad PCB/SCH Diff not installed or too old
+  Visit: https://github.com/INTI-CMNB/KiDiff
+  Download it from: https://github.com/INTI-CMNB/KiDiff/releases
+  Please install the Python Installer (pip).
+  - Mandatory for `diff`
+
+Environment:
+COLORTERM
+DBUS_SESSION_BUS_ADDRESS
+DESKTOP_SESSION
+DISPLAY
+GDMSESSION
+GNOME_DESKTOP_SESSION_ID
+GNOME_SETUP_DISPLAY
+GNOME_SHELL_SESSION_MODE
+GNOME_TERMINAL_SCREEN
+GNOME_TERMINAL_SERVICE
+GTK_MODULES
+HOME
+IM_CONFIG_PHASE
+INTERACTIVE_HTML_BOM_NO_DISPLAY
+KICAD6_3RD_PARTY
+KICAD6_FOOTPRINT_DIR
+KICAD6_SYMBOL_DIR
+KICAD6_TEMPLATE_DIR
+KICAD7_3RD_PARTY
+KICAD7_FOOTPRINT_DIR
+KICAD7_SYMBOL_DIR
+KICAD7_TEMPLATE_DIR
+KICAD_USER_TEMPLATE_DIR
+KIPRJMOD
+KISYSMOD
+LANG
+LANGUAGE
+LESSCLOSE
+LESSOPEN
+LOGNAME
+LS_COLORS
+OLDPWD
+PATH
+PWD
+QT_ACCESSIBILITY
+QT_IM_MODULE
+SESSION_MANAGER
+SHELL
+SHLVL
+SSH_AGENT_LAUNCHER
+SSH_AUTH_SOCK
+SYSTEMD_EXEC_PID
+TERM
+USER
+USERNAME
+VTE_VERSION
+WAYLAND_DISPLAY
+XAUTHORITY
+XDG_CONFIG_DIRS
+XDG_CURRENT_DESKTOP
+XDG_DATA_DIRS
+XDG_MENU_PREFIX
+XDG_RUNTIME_DIR
+XDG_SESSION_CLASS
+XDG_SESSION_DESKTOP
+XDG_SESSION_TYPE
+XMODIFIERS
+_
+
+KiAuto:
+This is KiAuto v2.2.6
+Installed at: /usr/bin/pcbnew_do
+Using kiauto module from: /usr/lib/python3/dist-packages/kiauto
+Interpreted by Python: /usr/bin/python3 (v3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0])
+Tools:
+- kicad: /usr/bin/kicad (v7.0.6-7.0.6~ubuntu22.04.1)
+- xdotool: /usr/bin/xdotool
+- recordmydesktop: /usr/bin/recordmydesktop
+- xsltproc: /usr/bin/xsltproc
+- xclip: /usr/bin/xclip
+- convert: /usr/bin/convert

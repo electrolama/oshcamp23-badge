@@ -1,0 +1,38 @@
+PCB Specifications:
+Size:
+
+- 75.0x120.0 mm
+
+Class: 7F
+
+Track width: >= 0.15 mm
+
+Insulation distance: >= 0.13 mm
+
+Minimum drill size: >= 0.35 mm (finished metalized hole: 0.25 mm)
+
+Minimum slot width: >= N/A mm
+
+Ring collar: >= 0.03 mm
+
+
+Materials:
+
+- FR4, 1.6 mm
+- HAL
+- 2 layers
+- 35 µm copper thickness
+
+Solder mask:
+
+- TOP / BOTTOM
+- Green
+
+Marking:
+
+- TOP / BOTTOM screen printing
+- Silk: White
+
+Other markings:
+
+- ROHS / UL / Date - Yes if available
