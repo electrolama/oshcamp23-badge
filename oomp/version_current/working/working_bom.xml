@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KiCad_BOM PCB_Variant="default" KiCad_Version="7.0.6-7.0.6~ubuntu22.04.1" Component_Groups="25" Component_Count="58 (0 SMD/ 0 THT)" Fitted_Components="58 (0 SMD/ 0 THT)" Number_of_PCBs="1" Total_Components="58" Schematic_Source="working" Schematic_Revision="" Schematic_Date="2023-08-07_18-13-22" encoding="utf-8">
+	<group Row="1" Description="" Part="ANT-CERAMIC-YAGEO-ANT3216LL00R2400A" References="ANT2" Value="ANT3216LL00R2400A" Footprint="YAGEO-ANT3216LL00R2400A" Quantity_Per_PCB="1" Status=" " Datasheet="" JLCASSY="C293767" MPN=""/>
+	<group Row="2" Description="" Part="CAP-0402" References="C23 C24" Value="8p" Footprint="_PKG_C_0402" Quantity_Per_PCB="2" Status=" " Datasheet="" JLCASSY="C1578" MPN=""/>
+	<group Row="3" Description="" Part="CAP-0402-NOTHERMALS" References="C26 C28 C29 C30 C32" Value="100n" Footprint="_PKG_C_0402_NOTHERMALS" Quantity_Per_PCB="5" Status=" " Datasheet="" JLCASSY="C307331" MPN=""/>
+	<group Row="4" Description="" Part="CAP-0402" References="C4 C5 C6 C31" Value="100n" Footprint="_PKG_C_0402" Quantity_Per_PCB="4" Status=" " Datasheet="" JLCASSY="C307331" MPN=""/>
+	<group Row="5" Description="" Part="CAP-0402-NOTHERMALS" References="C25 C27" Value="4u7" Footprint="_PKG_C_0402_NOTHERMALS" Quantity_Per_PCB="2" Status=" " Datasheet="" JLCASSY="C23733" MPN=""/>
+	<group Row="6" Description="" Part="CAP-1206" References="C1 C2 C3 C33 C34" Value="47u" Footprint="_PKG_C_1206" Quantity_Per_PCB="5" Status=" " Datasheet="" JLCASSY="C96123" MPN="CL31A476MPHNNNE"/>
+	<group Row="7" Description="" Part="CAP-0402-NOTHERMALS" References="C21 C22" Value="TBD" Footprint="_PKG_C_0402_NOTHERMALS" Quantity_Per_PCB="2" Status=" " Datasheet="" JLCASSY="" MPN=""/>
+	<group Row="8" Description="" Part="STEMMA_I2C_QT" References="CON2" Value="STEMMA_I2C_QT" Footprint="JST_SH4" Quantity_Per_PCB="1" Status=" " Datasheet="" JLCASSY="C145956" MPN=""/>
+	<group Row="9" Description="" Part="USBC_USB-C-12" References="CON1" Value="USBC_USB-C-12" Footprint="USBC_C-31-M-12" Quantity_Per_PCB="1" Status=" " Datasheet="" JLCASSY="C165948" MPN=""/>
+	<group Row="10" Description="" Part="DIODE-SWITCHING-1N4148W" References="D1" Value="DIODE-SWITCHING-1N4148W" Footprint="_PKG_SOD123" Quantity_Per_PCB="1" Status=" " Datasheet="" JLCASSY="" MPN=""/>
+	<group Row="11" Description="" Part="INTERFACE-CH343G" References="IC1" Value="INTERFACE-CH343G" Footprint="_PKG_SOP16" Quantity_Per_PCB="1" Status=" " Datasheet="" JLCASSY="C2844153" MPN=""/>
+	<group Row="12" Description="" Part="POWER-LDO-LD1117-SOT223-4" References="IC2" Value="LD1117-3.3" Footprint="_PKG_SOT223-4_TI-DCY4" Quantity_Per_PCB="1" Status=" " Datasheet="" JLCASSY="C6186" MPN=""/>
+	<group Row="13" Description="" Part="WMCU-ESP8285H16" References="IC4" Value="WMCU-ESP8285H16" Footprint="QFN50P500X500X90-33N" Quantity_Per_PCB="1" Status=" " Datasheet="" JLCASSY="C967019" MPN=""/>
+	<group Row="14" Description="" Part="6103XX21121_61030621121" References="J1" Value="6103XX21121_61030621121" Footprint="61030621121" Quantity_Per_PCB="1" Status=" " Datasheet="" JLCASSY="C780054" MPN=""/>
+	<group Row="15" Description="" Part="INDUCTOR-0402" References="L2" Value="TBD" Footprint="_PKG_L_0402" Quantity_Per_PCB="1" Status=" " Datasheet="" JLCASSY="" MPN=""/>
+	<group Row="16" Description="" Part="WS2812B5050" References="LED1" Value="WS2812B5050" Footprint="WS2812B" Quantity_Per_PCB="1" Status=" " Datasheet="" JLCASSY="" MPN=""/>
+	<group Row="17" Description="" Part="MODULE_ESP-12S" References="MOD2" Value="ESP-12S" Footprint="ESP-12S" Quantity_Per_PCB="1" Status=" " Datasheet="" JLCASSY="C82898" MPN=""/>
+	<group Row="18" Description="" Part="PIEZO-MLT-8530" References="P1" Value="Buzzer" Footprint="MLT-8530" Quantity_Per_PCB="1" Status=" " Datasheet="" JLCASSY="C94599" MPN=""/>
+	<group Row="19" Description="" Part="NPN-MMBT5550LT1G" References="Q1 Q2 Q3" Value="SS8050" Footprint="SOT96P237X111-3N" Quantity_Per_PCB="3" Status=" " Datasheet="" JLCASSY="C2150" MPN=""/>
+	<group Row="20" Description="" Part="RES-0603" References="R1" Value="220" Footprint="_PKG_R_0603" Quantity_Per_PCB="1" Status=" " Datasheet="" JLCASSY="C22962" MPN=""/>
+	<group Row="21" Description="" Part="RES-0603" References="R2 R3" Value="5k1" Footprint="_PKG_R_0603" Quantity_Per_PCB="2" Status=" " Datasheet="" JLCASSY="C23186" MPN=""/>
+	<group Row="22" Description="" Part="RES-0402" References="R4 R5 R12 R13 R14 R15 R16 R17" Value="12k 1%" Footprint="_PKG_R_0402" Quantity_Per_PCB="8" Status=" " Datasheet="" JLCASSY="C25752" MPN=""/>
+	<group Row="23" Description="" Part="SJ-SHORT" References="SJ1 SJ2 SJ3 SJ4" Value="SJ-SHORT" Footprint="SJ-SHORT" Quantity_Per_PCB="4" Status=" " Datasheet="" JLCASSY="" MPN=""/>
+	<group Row="24" Description="" Part="PUSHBUTTON-6X6MM" References="SW1 SW2 SW3 SW4 SW5 SW6 SW7" Value="PUSHBUTTON-6X6MM" Footprint="GENERIC_SPNO_4P_6X6MM" Quantity_Per_PCB="7" Status=" " Datasheet="" JLCASSY="C620316" MPN=""/>
+	<group Row="25" Description="" Part="XTAL-4P-2016" References="XT2" Value="26MHz" Footprint="XTAL-4P-2016" Quantity_Per_PCB="1" Status=" " Datasheet="" JLCASSY="C2762193" MPN=""/>
+</KiCad_BOM>
