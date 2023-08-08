@@ -1,0 +1,4 @@
+# details of file locations for oomlout_oomp_project documentation bot discovery
+-oomp
+  src_file_brd: hardware/badge/Revision A2/oshcamp23-badge-RevA2.brd
+  src_file_bom_xlsx: hardware/badge/Revision A2/prod/oshcamp23-badge-RevA2-BOM.xlsx
