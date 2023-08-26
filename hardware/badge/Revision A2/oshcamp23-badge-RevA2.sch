@@ -3088,18 +3088,30 @@ Updated by Ella Wu 2021-11-04
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="IC3" library="ok-chips-dev" deviceset="WMCU-ESP8285H16" device="">
 <attribute name="JLCASSY" value="C967019"/>
+<attribute name="KIT_EASY" value="NO"/>
 </part>
-<part name="C8" library="ok-discretes-dev" deviceset="CAP" device="-0402-NOTHERMALS" value="TBD"/>
-<part name="C9" library="ok-discretes-dev" deviceset="CAP" device="-0402-NOTHERMALS" value="TBD"/>
-<part name="L1" library="ok-discretes-dev" deviceset="INDUCTOR" device="-0402" value="TBD"/>
+<part name="C8" library="ok-discretes-dev" deviceset="CAP" device="-0402-NOTHERMALS" value="TBD">
+<attribute name="KIT_EASY" value="NO"/>
+<attribute name="KIT_HARD" value="NO"/>
+</part>
+<part name="C9" library="ok-discretes-dev" deviceset="CAP" device="-0402-NOTHERMALS" value="TBD">
+<attribute name="KIT_EASY" value="NO"/>
+<attribute name="KIT_HARD" value="NO"/>
+</part>
+<part name="L1" library="ok-discretes-dev" deviceset="INDUCTOR" device="-0402" value="0R LINK (Temp)">
+<attribute name="KIT_EASY" value="NO"/>
+</part>
 <part name="XT1" library="ok-xtal-osc-dev" deviceset="XTAL-4P-2016" device="" value="26MHz">
 <attribute name="JLCASSY" value="C2762193"/>
+<attribute name="KIT_EASY" value="NO"/>
 </part>
 <part name="C7" library="ok-discretes-dev" deviceset="CAP" device="-0402" value="8p">
 <attribute name="JLCASSY" value="C1578"/>
+<attribute name="KIT_EASY" value="NO"/>
 </part>
 <part name="C11" library="ok-discretes-dev" deviceset="CAP" device="-0402" value="8p">
 <attribute name="JLCASSY" value="C1578"/>
+<attribute name="KIT_EASY" value="NO"/>
 </part>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -3107,18 +3119,23 @@ Updated by Ella Wu 2021-11-04
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R6" library="ok-discretes-dev" deviceset="RES" device="-0402" value="12k 1%">
 <attribute name="JLCASSY" value="C25752"/>
+<attribute name="KIT_EASY" value="NO"/>
 </part>
 <part name="R7" library="ok-discretes-dev" deviceset="RES" device="-0402" value="12k 1%">
 <attribute name="JLCASSY" value="C25752"/>
+<attribute name="KIT_EASY" value="NO"/>
 </part>
 <part name="R8" library="ok-discretes-dev" deviceset="RES" device="-0402" value="12k 1%">
 <attribute name="JLCASSY" value="C25752"/>
+<attribute name="KIT_EASY" value="NO"/>
 </part>
 <part name="R9" library="ok-discretes-dev" deviceset="RES" device="-0402" value="12k 1%">
 <attribute name="JLCASSY" value="C25752"/>
+<attribute name="KIT_EASY" value="NO"/>
 </part>
 <part name="R10" library="ok-discretes-dev" deviceset="RES" device="-0402" value="12k 1%">
 <attribute name="JLCASSY" value="C25752"/>
+<attribute name="KIT_EASY" value="NO"/>
 </part>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -3126,22 +3143,27 @@ Updated by Ella Wu 2021-11-04
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C12" library="ok-discretes-dev" deviceset="CAP" device="-0402-NOTHERMALS" value="4u7">
 <attribute name="JLCASSY" value="C23733"/>
+<attribute name="KIT_EASY" value="NO"/>
 </part>
 <part name="C13" library="ok-discretes-dev" deviceset="CAP" device="-0402-NOTHERMALS" value="100n">
 <attribute name="JLCASSY" value="C307331"/>
+<attribute name="KIT_EASY" value="NO"/>
 </part>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C14" library="ok-discretes-dev" deviceset="CAP" device="-0402-NOTHERMALS" value="4u7">
 <attribute name="JLCASSY" value="C23733"/>
+<attribute name="KIT_EASY" value="NO"/>
 </part>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C16" library="ok-discretes-dev" deviceset="CAP" device="-0402-NOTHERMALS" value="100n">
 <attribute name="JLCASSY" value="C307331"/>
+<attribute name="KIT_EASY" value="NO"/>
 </part>
 <part name="C17" library="ok-discretes-dev" deviceset="CAP" device="-0402-NOTHERMALS" value="100n">
 <attribute name="JLCASSY" value="C307331"/>
+<attribute name="KIT_EASY" value="NO"/>
 </part>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -3153,9 +3175,11 @@ Updated by Ella Wu 2021-11-04
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="C20" library="ok-discretes-dev" deviceset="CAP" device="-0402-NOTHERMALS" value="100n">
 <attribute name="JLCASSY" value="C307331"/>
+<attribute name="KIT_EASY" value="NO"/>
 </part>
 <part name="R11" library="ok-discretes-dev" deviceset="RES" device="-0402" value="12k 1%">
 <attribute name="JLCASSY" value="C25752"/>
+<attribute name="KIT_EASY" value="NO"/>
 </part>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
@@ -3170,12 +3194,12 @@ Updated by Ella Wu 2021-11-04
 <attribute name="JLCASSY" value="C145956"/>
 </part>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
-<part name="CON1" library="ok-connectors-dev" deviceset="USBC_USB-C-12" device="">
+<part name="CON1" library="ok-connectors-dev" deviceset="USBC_USB-C-12" device="" value="USBC_C-31-M-12">
 <attribute name="JLCASSY" value="C165948"/>
 </part>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="IC1" library="ok-chips-dev" deviceset="INTERFACE-CH343G" device="">
+<part name="IC1" library="ok-chips-dev" deviceset="INTERFACE-CH343G" device="" value="CH343G">
 <attribute name="JLCASSY" value="C2844153"/>
 </part>
 <part name="C6" library="ok-discretes-dev" deviceset="CAP" device="-0402" override_package3d_urn="urn:adsk.eagle:package:34397411/2" override_package_urn="urn:adsk.eagle:footprint:34397412/1" override_locally_modified="yes" value="100n">
@@ -3212,26 +3236,28 @@ Updated by Ella Wu 2021-11-04
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="MOD1" library="ok-modules-dev" deviceset="MODULE_ESP-12S" device="" value="ESP-12S">
 <attribute name="JLCASSY" value="C82898"/>
+<attribute name="KIT_HARD" value="NO"/>
 </part>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="C19" library="ok-discretes-dev" deviceset="CAP" device="-0402" override_package3d_urn="urn:adsk.eagle:package:34397411/2" override_package_urn="urn:adsk.eagle:footprint:34397412/1" override_locally_modified="yes" value="100n">
 <attribute name="JLCASSY" value="C307331"/>
+<attribute name="KIT_HARD" value="NO"/>
 </part>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SW1" library="ok-electromech-dev" deviceset="PUSHBUTTON-6X6MM" device="">
+<part name="SW1" library="ok-electromech-dev" deviceset="PUSHBUTTON-6X6MM" device="" value="Pushbutton">
 <attribute name="JLCASSY" value="C620316"/>
 </part>
-<part name="SW2" library="ok-electromech-dev" deviceset="PUSHBUTTON-6X6MM" device="">
+<part name="SW2" library="ok-electromech-dev" deviceset="PUSHBUTTON-6X6MM" device="" value="Pushbutton">
 <attribute name="JLCASSY" value="C620316"/>
 </part>
-<part name="SW3" library="ok-electromech-dev" deviceset="PUSHBUTTON-6X6MM" device="">
+<part name="SW3" library="ok-electromech-dev" deviceset="PUSHBUTTON-6X6MM" device="" value="Pushbutton">
 <attribute name="JLCASSY" value="C620316"/>
 </part>
-<part name="SW4" library="ok-electromech-dev" deviceset="PUSHBUTTON-6X6MM" device="">
+<part name="SW4" library="ok-electromech-dev" deviceset="PUSHBUTTON-6X6MM" device="" value="Pushbutton">
 <attribute name="JLCASSY" value="C620316"/>
 </part>
-<part name="SW5" library="ok-electromech-dev" deviceset="PUSHBUTTON-6X6MM" device="">
+<part name="SW5" library="ok-electromech-dev" deviceset="PUSHBUTTON-6X6MM" device="" value="Pushbutton">
 <attribute name="JLCASSY" value="C620316"/>
 </part>
 <part name="P1" library="ok-electromech-dev" deviceset="PIEZO-MLT-8530" device="" value="Buzzer">
@@ -3248,16 +3274,17 @@ Updated by Ella Wu 2021-11-04
 <attribute name="JLCASSY" value="C22962"/>
 </part>
 <part name="P+13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="SW6" library="ok-electromech-dev" deviceset="PUSHBUTTON-6X6MM" device="">
+<part name="SW6" library="ok-electromech-dev" deviceset="PUSHBUTTON-6X6MM" device="" value="Pushbutton">
 <attribute name="JLCASSY" value="C620316"/>
 </part>
-<part name="SW7" library="ok-electromech-dev" deviceset="PUSHBUTTON-6X6MM" device="">
+<part name="SW7" library="ok-electromech-dev" deviceset="PUSHBUTTON-6X6MM" device="" value="Pushbutton">
 <attribute name="JLCASSY" value="C620316"/>
 </part>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="C15" library="ok-discretes-dev" deviceset="CAP" device="-0402-NOTHERMALS" value="100n">
 <attribute name="JLCASSY" value="C307331"/>
+<attribute name="KIT_EASY" value="NO"/>
 </part>
 <part name="GND33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
@@ -3270,10 +3297,22 @@ Updated by Ella Wu 2021-11-04
 <part name="J1" library="Wurth_Connectors_WR-PHD" library_urn="urn:adsk.eagle:library:14804658" deviceset="6103XX21121_61030621121" device="" package3d_urn="urn:adsk.eagle:package:14805522/5" value=" 61030621121 ">
 <attribute name="JLCASSY" value="C780054"/>
 </part>
-<part name="SJ1" library="ok-mechanical-dev" deviceset="SJ-SHORT" device=""/>
-<part name="SJ2" library="ok-mechanical-dev" deviceset="SJ-SHORT" device=""/>
-<part name="SJ3" library="ok-mechanical-dev" deviceset="SJ-SHORT" device=""/>
-<part name="SJ4" library="ok-mechanical-dev" deviceset="SJ-SHORT" device=""/>
+<part name="SJ1" library="ok-mechanical-dev" deviceset="SJ-SHORT" device="">
+<attribute name="KIT_EASY" value="NO"/>
+<attribute name="KIT_HARD" value="NO"/>
+</part>
+<part name="SJ2" library="ok-mechanical-dev" deviceset="SJ-SHORT" device="">
+<attribute name="KIT_EASY" value="NO"/>
+<attribute name="KIT_HARD" value="NO"/>
+</part>
+<part name="SJ3" library="ok-mechanical-dev" deviceset="SJ-SHORT" device="">
+<attribute name="KIT_EASY" value="NO"/>
+<attribute name="KIT_HARD" value="NO"/>
+</part>
+<part name="SJ4" library="ok-mechanical-dev" deviceset="SJ-SHORT" device="">
+<attribute name="KIT_EASY" value="NO"/>
+<attribute name="KIT_HARD" value="NO"/>
+</part>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="C3" library="ok-discretes-dev" deviceset="CAP" device="-1206" override_package3d_urn="urn:adsk.eagle:package:37856705/2" override_package_urn="urn:adsk.eagle:footprint:37856706/1" value="47u">
@@ -3284,19 +3323,25 @@ Updated by Ella Wu 2021-11-04
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="C18" library="ok-discretes-dev" deviceset="CAP" device="-1206" override_package3d_urn="urn:adsk.eagle:package:37856705/2" override_package_urn="urn:adsk.eagle:footprint:37856706/1" value="47u">
 <attribute name="JLCASSY" value="C96123"/>
+<attribute name="KIT_HARD" value="NO"/>
 <attribute name="MPN" value="CL31A476MPHNNNE"/>
 </part>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="C10" library="ok-discretes-dev" deviceset="CAP" device="-1206" override_package3d_urn="urn:adsk.eagle:package:37856705/2" override_package_urn="urn:adsk.eagle:footprint:37856706/1" value="47u">
 <attribute name="JLCASSY" value="C96123"/>
+<attribute name="KIT_EASY" value="NO"/>
 <attribute name="MPN" value="CL31A476MPHNNNE"/>
 </part>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="ANT1" library="ok-rf-dev" deviceset="ANT-CERAMIC-YAGEO-ANT3216LL00R2400A" device="" value="ANT3216LL00R2400A">
 <attribute name="JLCASSY" value="C293767"/>
+<attribute name="KIT_EASY" value="NO"/>
 </part>
-<part name="D1" library="ok-discretes-dev" deviceset="DIODE-SWITCHING-1N4148W" device=""/>
+<part name="D1" library="ok-discretes-dev" deviceset="DIODE-SWITCHING-1N4148W" device="">
+<attribute name="KIT_EASY" value="NO"/>
+<attribute name="KIT_HARD" value="NO"/>
+</part>
 <part name="P+16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="LED1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="WS2812B" device="5050" package3d_urn="urn:adsk.eagle:package:6240942/1"/>
 </parts>
@@ -3528,18 +3573,34 @@ high at boot, hence the reason why it is different.</text>
 <instance part="SJ1" gate="G$1" x="172.72" y="154.94" smashed="yes">
 <attribute name="NAME" x="170.815" y="156.845" size="1.778" layer="95"/>
 <attribute name="VALUE" x="170.18" y="151.13" size="1.778" layer="96"/>
+<attribute name="KIT_EASY" x="172.72" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="KIT_HARD" x="172.72" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="KIT_EASY" x="172.72" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="KIT_HARD" x="172.72" y="154.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SJ2" gate="G$1" x="172.72" y="149.86" smashed="yes">
 <attribute name="NAME" x="170.815" y="151.765" size="1.778" layer="95"/>
 <attribute name="VALUE" x="170.18" y="146.05" size="1.778" layer="96"/>
+<attribute name="KIT_EASY" x="172.72" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="KIT_HARD" x="172.72" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="KIT_EASY" x="172.72" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="KIT_HARD" x="172.72" y="149.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SJ3" gate="G$1" x="172.72" y="144.78" smashed="yes">
 <attribute name="NAME" x="170.815" y="146.685" size="1.778" layer="95"/>
 <attribute name="VALUE" x="170.18" y="140.97" size="1.778" layer="96"/>
+<attribute name="KIT_EASY" x="172.72" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="KIT_HARD" x="172.72" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="KIT_EASY" x="172.72" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="KIT_HARD" x="172.72" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SJ4" gate="G$1" x="238.76" y="147.32" smashed="yes">
 <attribute name="NAME" x="236.855" y="149.225" size="1.778" layer="95"/>
 <attribute name="VALUE" x="236.22" y="143.51" size="1.778" layer="96"/>
+<attribute name="KIT_EASY" x="238.76" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="KIT_HARD" x="238.76" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="KIT_EASY" x="238.76" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="KIT_HARD" x="238.76" y="147.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND19" gate="1" x="210.82" y="142.24" smashed="yes">
 <attribute name="VALUE" x="208.28" y="139.7" size="1.778" layer="96"/>
@@ -3559,6 +3620,8 @@ high at boot, hence the reason why it is different.</text>
 <instance part="D1" gate="G$1" x="48.26" y="33.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="46.1264" y="33.5534" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="52.7558" y="30.4546" size="1.778" layer="96" rot="R90"/>
+<attribute name="KIT_EASY" x="48.26" y="33.02" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="KIT_HARD" x="48.26" y="33.02" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="P+16" gate="VCC" x="144.78" y="20.32" smashed="yes">
 <attribute name="VALUE" x="142.875" y="20.955" size="1.778" layer="96"/>
@@ -4092,33 +4155,42 @@ unique items we have on this board.</text>
 <attribute name="NAME" x="138.43" y="146.685" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="132.715" y="94.615" size="1.778" layer="96" align="center-left"/>
 <attribute name="JLCASSY" x="119.38" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="KIT_EASY" x="119.38" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C8" gate="A" x="40.64" y="121.92" smashed="yes" rot="R90">
 <attribute name="NAME" x="38.1" y="121.92" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="38.1" y="119.38" size="1.778" layer="96" rot="R180"/>
+<attribute name="KIT_EASY" x="40.64" y="121.92" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="KIT_HARD" x="40.64" y="121.92" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C9" gate="A" x="50.8" y="121.92" smashed="yes" rot="R90">
 <attribute name="NAME" x="48.26" y="121.92" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="48.26" y="119.38" size="1.778" layer="96" rot="R180"/>
+<attribute name="KIT_EASY" x="50.8" y="121.92" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="KIT_HARD" x="50.8" y="121.92" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="L1" gate="G$1" x="45.72" y="127" smashed="yes">
 <attribute name="NAME" x="43.815" y="128.27" size="1.778" layer="95"/>
 <attribute name="VALUE" x="43.815" y="124.46" size="1.778" layer="96"/>
+<attribute name="KIT_EASY" x="45.72" y="127" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="XT1" gate="G$1" x="45.72" y="83.82" smashed="yes">
 <attribute name="NAME" x="43.815" y="87.63" size="1.778" layer="95"/>
 <attribute name="VALUE" x="41.91" y="78.105" size="1.778" layer="96"/>
 <attribute name="JLCASSY" x="45.72" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="KIT_EASY" x="45.72" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C7" gate="A" x="30.48" y="76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="27.94" y="77.47" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="27.94" y="75.565" size="1.778" layer="96" rot="R180"/>
 <attribute name="JLCASSY" x="30.48" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="KIT_EASY" x="30.48" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C11" gate="A" x="60.96" y="76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="63.5" y="76.2" size="1.778" layer="95"/>
 <attribute name="VALUE" x="63.5" y="74.295" size="1.778" layer="96"/>
 <attribute name="JLCASSY" x="60.96" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="KIT_EASY" x="60.96" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND1" gate="1" x="30.48" y="71.12" smashed="yes">
 <attribute name="VALUE" x="27.94" y="68.58" size="1.778" layer="96"/>
@@ -4136,26 +4208,31 @@ unique items we have on this board.</text>
 <attribute name="NAME" x="95.25" y="154.94" size="1.778" layer="95"/>
 <attribute name="VALUE" x="99.695" y="154.94" size="1.778" layer="96"/>
 <attribute name="JLCASSY" x="99.06" y="157.48" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="KIT_EASY" x="99.06" y="157.48" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R7" gate="G$1" x="190.5" y="152.4" smashed="yes">
 <attribute name="NAME" x="189.23" y="153.67" size="1.778" layer="95"/>
 <attribute name="VALUE" x="187.96" y="149.86" size="1.778" layer="96"/>
 <attribute name="JLCASSY" x="190.5" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="KIT_EASY" x="190.5" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R8" gate="G$1" x="190.5" y="144.78" smashed="yes">
 <attribute name="NAME" x="189.23" y="146.05" size="1.778" layer="95"/>
 <attribute name="VALUE" x="187.96" y="142.24" size="1.778" layer="96"/>
 <attribute name="JLCASSY" x="190.5" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="KIT_EASY" x="190.5" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R9" gate="G$1" x="190.5" y="137.16" smashed="yes">
 <attribute name="NAME" x="189.23" y="138.43" size="1.778" layer="95"/>
 <attribute name="VALUE" x="187.96" y="134.62" size="1.778" layer="96"/>
 <attribute name="JLCASSY" x="190.5" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="KIT_EASY" x="190.5" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R10" gate="G$1" x="190.5" y="129.54" smashed="yes">
 <attribute name="NAME" x="189.23" y="130.81" size="1.778" layer="95"/>
 <attribute name="VALUE" x="187.96" y="127" size="1.778" layer="96"/>
 <attribute name="JLCASSY" x="190.5" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="KIT_EASY" x="190.5" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND5" gate="1" x="182.88" y="121.92" smashed="yes">
 <attribute name="VALUE" x="180.34" y="119.38" size="1.778" layer="96"/>
@@ -4173,11 +4250,13 @@ unique items we have on this board.</text>
 <attribute name="NAME" x="63.5" y="115.57" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="63.5" y="113.03" size="1.778" layer="96" rot="R180"/>
 <attribute name="JLCASSY" x="66.04" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="KIT_EASY" x="66.04" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C13" gate="A" x="71.12" y="114.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="73.66" y="115.57" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="73.66" y="111.125" size="1.778" layer="96"/>
 <attribute name="JLCASSY" x="71.12" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="KIT_EASY" x="71.12" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND9" gate="1" x="66.04" y="106.68" smashed="yes">
 <attribute name="VALUE" x="63.5" y="104.14" size="1.778" layer="96"/>
@@ -4189,6 +4268,7 @@ unique items we have on this board.</text>
 <attribute name="NAME" x="71.12" y="156.21" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="71.12" y="153.67" size="1.778" layer="96" rot="R180"/>
 <attribute name="JLCASSY" x="73.66" y="154.94" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="KIT_EASY" x="73.66" y="154.94" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND11" gate="1" x="73.66" y="147.32" smashed="yes">
 <attribute name="VALUE" x="71.12" y="144.78" size="1.778" layer="96"/>
@@ -4200,11 +4280,13 @@ unique items we have on this board.</text>
 <attribute name="NAME" x="96.52" y="77.47" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="96.52" y="74.93" size="1.778" layer="96" rot="R180"/>
 <attribute name="JLCASSY" x="99.06" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="KIT_EASY" x="99.06" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C17" gate="A" x="165.1" y="106.68" smashed="yes" rot="R90">
 <attribute name="NAME" x="162.56" y="107.95" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="162.56" y="105.41" size="1.778" layer="96" rot="R180"/>
 <attribute name="JLCASSY" x="165.1" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="KIT_EASY" x="165.1" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND13" gate="1" x="99.06" y="68.58" smashed="yes">
 <attribute name="VALUE" x="96.52" y="66.04" size="1.778" layer="96"/>
@@ -4234,11 +4316,13 @@ unique items we have on this board.</text>
 <attribute name="NAME" x="228.6" y="136.525" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="228.6" y="133.985" size="1.778" layer="96" rot="R180"/>
 <attribute name="JLCASSY" x="231.14" y="134.62" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="KIT_EASY" x="231.14" y="134.62" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R11" gate="G$1" x="231.14" y="144.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="229.235" y="146.685" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="229.235" y="144.145" size="1.778" layer="96" rot="R180"/>
 <attribute name="JLCASSY" x="231.14" y="144.78" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="KIT_EASY" x="231.14" y="144.78" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND15" gate="1" x="231.14" y="127" smashed="yes">
 <attribute name="VALUE" x="228.6" y="124.46" size="1.778" layer="96"/>
@@ -4250,6 +4334,7 @@ unique items we have on this board.</text>
 <attribute name="NAME" x="81.28" y="156.21" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="81.28" y="153.67" size="1.778" layer="96" rot="R180"/>
 <attribute name="JLCASSY" x="83.82" y="154.94" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="KIT_EASY" x="83.82" y="154.94" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND33" gate="1" x="83.82" y="147.32" smashed="yes">
 <attribute name="VALUE" x="81.28" y="144.78" size="1.778" layer="96"/>
@@ -4265,6 +4350,7 @@ unique items we have on this board.</text>
 <attribute name="VALUE" x="50.8" y="153.035" size="1.778" layer="96" align="bottom-right"/>
 <attribute name="JLCASSY" x="53.34" y="154.94" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="53.34" y="154.94" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="KIT_EASY" x="53.34" y="154.94" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="GND21" gate="1" x="53.34" y="147.32" smashed="yes">
 <attribute name="VALUE" x="50.8" y="144.78" size="1.778" layer="96"/>
@@ -4273,6 +4359,7 @@ unique items we have on this board.</text>
 <attribute name="NAME" x="198.12" y="74.93" size="2.54" layer="95"/>
 <attribute name="VALUE" x="198.12" y="34.29" size="2.54" layer="96"/>
 <attribute name="JLCASSY" x="213.36" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="KIT_HARD" x="213.36" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND27" gate="1" x="236.22" y="30.48" smashed="yes">
 <attribute name="VALUE" x="233.68" y="27.94" size="1.778" layer="96"/>
@@ -4285,6 +4372,7 @@ unique items we have on this board.</text>
 <attribute name="VALUE" x="185.42" y="36.83" size="1.778" layer="96" rot="R180"/>
 <attribute name="JLCASSY" x="187.96" y="38.1" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="JLCASSY" x="187.96" y="38.1" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="KIT_HARD" x="187.96" y="38.1" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="GND28" gate="1" x="187.96" y="30.48" smashed="yes">
 <attribute name="VALUE" x="185.42" y="27.94" size="1.778" layer="96"/>
@@ -4297,12 +4385,14 @@ unique items we have on this board.</text>
 <attribute name="VALUE" x="167.64" y="36.83" size="1.778" layer="96" rot="R180"/>
 <attribute name="JLCASSY" x="170.18" y="38.1" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="170.18" y="38.1" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="KIT_HARD" x="170.18" y="38.1" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="GND17" gate="1" x="170.18" y="30.48" smashed="yes">
 <attribute name="VALUE" x="167.64" y="27.94" size="1.778" layer="96"/>
 </instance>
 <instance part="ANT1" gate="G$1" x="25.4" y="127" smashed="yes" rot="MR0">
 <attribute name="JLCASSY" x="25.4" y="127" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="KIT_EASY" x="25.4" y="127" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 </instances>
 <busses>
