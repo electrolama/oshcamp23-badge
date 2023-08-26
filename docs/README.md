@@ -1,5 +1,9 @@
 
-## Generating InteractiveHtmlBom for variants
+# Head over to [https://electrolama.github.io/oshcamp23-badge/](https://electrolama.github.io/oshcamp23-badge/) for docs
+
+## Notes
+
+### Generating InteractiveHtmlBom for variants
 
 See:
   - https://github.com/openscopeproject/InteractiveHtmlBom
